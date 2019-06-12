@@ -24,7 +24,7 @@ void insert(int value)
         return;
     }
     
-    temp = new node();  // TEMP NODE WHICH WILL BE USED LATER. THIS STATETEMNT PREVENT REPEAT CODE
+    temp = new node();  // TEMP NODE WHICH WILL BE USED LATER. THIS STATEMENT PREVENT REPEAT CODE
     temp->key = value;
     temp->left = NULL;
     temp->right = NULL;
@@ -63,7 +63,7 @@ void insert(int value)
     } 
 }
 
-void inorder(struct node *ptrNode) 
+void inorder(struct node *ptrNode) // LEFT-ROOT-RIGHT NOTATION
 {
     if (ptrNode != NULL) 
     {
